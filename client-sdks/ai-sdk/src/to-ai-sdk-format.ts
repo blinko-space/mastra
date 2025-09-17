@@ -17,7 +17,7 @@ export type WorkflowAiSDKType = {
   };
 };
 
-export function WokflowStreamToAISDKTransformer() {
+export function WorkflowStreamToAISDKTransformer() {
   const steps: Record<string, StepResult> = {};
   return new TransformStream<
     ChunkType,
